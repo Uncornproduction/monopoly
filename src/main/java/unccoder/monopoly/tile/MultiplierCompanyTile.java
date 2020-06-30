@@ -1,6 +1,6 @@
 package unccoder.monopoly.tile;
 
 
-public class MultiplierComponyTile extends AbstractCompany{
+public class MultiplierCompanyTile extends AbstractCompany{
     protected int[] multipliers;
 }

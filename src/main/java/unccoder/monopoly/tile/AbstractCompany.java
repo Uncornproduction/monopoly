@@ -1,5 +1,7 @@
 package unccoder.monopoly.tile;
 
+import hemok98.MonopolyPlayer;
+
 public abstract class AbstractCompany implements ITile {
     protected int groupId;
     protected int buyCost;
@@ -9,6 +11,11 @@ public abstract class AbstractCompany implements ITile {
     protected String name;
 
     protected boolean inMonopoly;
+
+    @Override
+    public void standOn(MonopolyPlayer player) {
+
+    }
 }
 /*
 Пошел кушац
