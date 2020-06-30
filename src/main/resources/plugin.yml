@@ -1,0 +1,4 @@
+name: Monopoly
+version: @version@
+main: unccoder.monopoly.MonopolyPlugin
+api-version: 1.15
