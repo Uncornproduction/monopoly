@@ -2,7 +2,7 @@ package unccoder.monopoly.tile;
 
 
 public class BaseCompany extends AbstractCompany {
-    protected int baseRent;
-    protected int[] rent;
+    protected int baseRent; // Рента с участка, х2 при монополии
+    protected int[] rent; // Ренты с домов
 
 }

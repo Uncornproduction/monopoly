@@ -1,7 +1,6 @@
 package unccoder.monopoly.tile;
 
-public class PrisonTile {
-    protected int escapeCost;
-    4444
-    protected String name;
+public abstract class PrisonTile implements ITile {
+    protected int escapeCost; // Цена выхода
+    protected int stepsBefore; // Количество ходов до принудительного выхода
 }
