@@ -1,5 +1,7 @@
 package unccoder.monopoly.tile;
 
+import hemok98.MonopolyPlayer;
+
 public abstract class AbstractCompany implements ITile {
     protected int groupId; // Идентифекатор цвета
     protected int buyCost; // Цена покупки
@@ -8,8 +10,11 @@ public abstract class AbstractCompany implements ITile {
 
     protected String name; // Название
 
-    protected boolean inMonopoly; // Есть монополия
-}
-/*
-Пошел кушац
- */
+    protected boolean inMonopoly;
+
+    @Override
+    public void standOn(MonopolyPlayer player) {
+
+    }
+
+  
