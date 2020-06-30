@@ -29,4 +29,5 @@ public final class MonopolyPlugin extends JavaPlugin {
 
     }
 
+
 }
