@@ -1,7 +1,5 @@
 package unccoder.monopoly.tile;
 
-import java.util.List;
-
-public class TransportCompanyTile extends BaseCompany {
+public class TransportCompanyTile extends AbstractCompany {
     protected int[] rent; // Ренты от количества транспортных полей
 }
