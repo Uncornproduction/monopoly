@@ -30,4 +30,5 @@ public final class MonopolyPlugin extends JavaPlugin {
 //        System.out.println(pidr);
     }
 
+
 }
