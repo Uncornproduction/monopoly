@@ -1,5 +1,6 @@
 package unccoder.monopoly;
 
+<<<<<<< Updated upstream
 import org.bukkit.Bukkit;
 import org.bukkit.advancement.Advancement;
 import org.bukkit.entity.Player;
@@ -16,6 +17,10 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 import java.util.ListIterator;
+=======
+import org.bukkit.plugin.java.JavaPlugin;
+
+>>>>>>> Stashed changes
 
 public final class MonopolyPlugin extends JavaPlugin {
 
