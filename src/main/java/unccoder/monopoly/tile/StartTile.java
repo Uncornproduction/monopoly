@@ -1,9 +1,15 @@
 package unccoder.monopoly.tile;
 
+import hemok98.MonopolyPlayer;
+
 import java.sql.Time;
 
-public abstract class StartTile implements ITile {
-    protected int jackpotMoney; // Деньги при попадании на поле СТАРТ
-    protected int casualMoney; // Деньги при проходе поля СТАРТ
-    //protected Time nonPayTime; // Время, через которое деньги за круг перестабт выдавать
+public class StartTile implements ITile {
+    protected int jackpotMoney;
+    protected int casualMoney;
+    /** protected long nonPayTime; */
+
+    @Override
+    public void standOn(MonopolyPlayer player) {
+    }
 }

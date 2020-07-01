@@ -14,7 +14,8 @@ public class Game {
 
     public Game() {
         field = new ArrayList<>();
-        //field.add()
+
+        field.add(new StartTile());
 
     }
 }
