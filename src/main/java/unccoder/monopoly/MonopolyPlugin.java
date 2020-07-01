@@ -27,7 +27,7 @@ public final class MonopolyPlugin extends JavaPlugin {
     @Override
     public void onDisable() {
 //        String pidr = "jeka";
-//        System.out.println(pidr);
+//        System.out.println(pidr)
     }
 
 
