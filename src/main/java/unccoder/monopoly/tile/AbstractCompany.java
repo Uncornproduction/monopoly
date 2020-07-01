@@ -16,5 +16,6 @@ public abstract class AbstractCompany implements ITile {
     public void standOn(MonopolyPlayer player) {
 
     }
+}
 
   
